@@ -1,0 +1,266 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1305px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.container {
+    max-width:1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.murapper {
+  background-color: #F4F9E2;
+}
+
+/* nav panel */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 262px;
+}
+
+.logo {
+  width: 118px;
+  height: 119px;
+}
+
+.nav_button {
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  background: #F9B640;
+  color: #FFF;
+  text-align: center;
+  font-family: ABeeZee;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  }
+
+  .nav_list {
+    display: flex;
+    list-style: none;
+    align-items:center;
+    gap: 30px;
+    font-family: ABeeZee;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+
+  }
+
+  /* Dino section */
+
+  .dino_section{
+    display: flex;
+    height: 580px;
+  }
+
+  .dino_info {
+    /* width: 610px; */
+    /* width: 800px; */
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 46px;
+    padding-top: 50px;
+  }
+
+  .dino_title {
+    color: #22356F;
+    font-family: ABeeZee;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 112.29%; /* 53.899px */
+    letter-spacing: -1.68px;
+  }
+
+  .dino_description {
+    padding-top: 36px;
+    padding-right: 80px;
+    color: #22356F;
+    font-family: ABeeZee;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 177.3%;
+    /* width: 520px; */
+    width: 620px;
+  }
+
+
+  /* Offer Section */
+
+  .offerSection {
+    margin-top: 50px;
+    background:#62D0DF;
+    height: 607px;
+  }
+
+  .offerInfoSection {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+  }
+
+  .grid_wrapper {
+    display:grid;
+    grid-template-columns: 686px 520px;
+  }
+
+  .offerTitle {
+    display: flex;
+    width: 361px;
+    height: 51px;
+    color: #FFF;
+    font-family: ABeeZee;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 76.83%; /* 27.659px */
+    letter-spacing: -0.216px;
+  }
+
+  .offerDescription {
+    padding-right: 160px;
+    /* width: 586px; */
+    width: 686px;
+    height: 270px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: justify;
+    font-family: ABeeZee;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 147.75%;
+  }
+
+
+  /* Description section */
+
+  .descriptionSection {
+    background: #FFFFFF;
+    height: 633px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .descriptionSection > p {
+    width: 740px;
+    color: #22356F;
+    font-family: ABeeZee;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 141.84%; /* 34.042px */
+    letter-spacing: 0.12px;
+  }
+
+
+
+/* service section */
+
+.serviceSection {
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 1306px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.serviceItem {
+  width: 440px;
+  height: 410px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  padding-top: 80px;
+  padding-left: 30px;
+}
+
+.line_div {
+  height: 1px;
+  width: 320px;
+  background-color:#F4F9E2;
+  margin-bottom: 40px;
+}
+
+.serviceItemTitle {
+  color: #FFF;
+  font-family: ABeeZee;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 106.38%; /* 34.042px */
+  letter-spacing: -0.192px;
+}
+
+/* rental section */
+
+.rental_section {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1320px;
+  height: 770px;
+  display: flex;
+}
+
+.rentalSectionDescripton {
+  width: 700px;
+  height: 770px;
+}
+
+.rentalInfo {
+  color: #22356F;
+  font-family: ABeeZee;
+  font-size: 43px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 76.83%; /* 27.659px */
+  letter-spacing: -0.216px;
+  padding-top: 45px;
+}
+
+.rentalSectionDescripton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
